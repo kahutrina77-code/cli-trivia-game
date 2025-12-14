@@ -1,0 +1,29 @@
+{
+  "name": "cli-trivia-game",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "bin": {
+  "trivia": "./bin/index.js"
+},
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kahutrina77-code/cli-trivia-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "bugs": {
+    "url": "https://github.com/kahutrina77-code/cli-trivia-game/issues"
+  },
+  "homepage": "https://github.com/kahutrina77-code/cli-trivia-game#readme",
+  "dependencies": {
+    "@inquirer/prompts": "^8.1.0",
+    "chalk": "^5.6.2"
+  }
+}
